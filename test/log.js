@@ -15,7 +15,7 @@ async function main() {
   console.log(`⛽ Network: ${hre.network.name}`);
   console.log("--------------------------------------------");
 
-  // Event: Loan Requested
+  // Event : Loan Requested
   platform.on("LoanRequested", (id, borrower, amount, interestRate, duration) => {
     console.log("📋 Loan Requested:");
     console.log(`🆔 ID: ${id}`);
@@ -60,4 +60,5 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
 
