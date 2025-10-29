@@ -5,7 +5,7 @@ const hre = require("hardhat");
 async function main() {
   await hre.run("compile");
 
-  console.log("🚀 Deploying MicrofinanceLendingPlatform...");
+  console.log("🚀 Deploying MicrofinanceLendingPlatform....");
 
   const MicrofinanceLendingPlatform = await hre.ethers.getContractFactory("MicrofinanceLendingPlatform");
   const platform = await MicrofinanceLendingPlatform.deploy();
@@ -26,3 +26,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
