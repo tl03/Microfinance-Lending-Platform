@@ -77,7 +77,7 @@ contract MicrofinanceLendingPlatform {
 
     function fundLoan(uint256 _loanId) public payable {
         Loan storage loan = loans[_loanId];
-        require(_loanId > 0 && _loanId <= loanCount, "Invalid loan ID");
+        require(_loanId > 0 && _loanId <= loanCount, "Invalid loan ID.");
         require(!loan.isFunded, "Loan already funded");
         require(msg.value == loan.amount, "Incorrect amount sent");
 
@@ -151,3 +151,4 @@ contract MicrofinanceLendingPlatform {
 
     receive() external payable {}
 }
+
