@@ -138,3 +138,8 @@ Deployed on testnet (example):
 This project is licensed under the MIT License – free to use, modify, and distribute.
 
 🔗 GitHub : https://github.com/tl03/Microfinance-Lending-Platform
+## Contract details
+0xfa1472011568C3580C547848F4C2fD2E561d87db
+<img width="1801" height="766" alt="image" src="https://github.com/user-attachments/assets/73461fdb-f41e-4f32-ac40-69a8ebf738db" />
+
+
